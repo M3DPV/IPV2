@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png">
+    
+</head>
+<body>
+    <div class="page">
+  <span class="menu_toggle">
+    <i class="menu_open fa fa-bars fa-lg"></i>
+    <i class="menu_close fa fa-times fa-lg"></i>
+  </span>
+  <ul class="menu_items">
+    <li><a href="index.html"><i class="icon fa fa-home fa-2x"></i> Home</a></li>
+    <li><a href="About.html"><i class="icon fa fa-heart fa-2x"></i> About</a></li>
+    <li><a href="Contact.html"><i class="icon fa fa-phone fa-2x"></i> Contact</a></li>
+    
+  </ul>
+  <main class="content">
+    <div class="content_inner">
+      <h1 class="top-text"> Informatică pentru viitor</h1>
+      <br><br><br> 
+  
+      <br><br>
+      
+      <p> Dorința de a crea un spațiu în care copiii să experimenteze, să gândească, să creeze și să fie convinși că orice se poate realiza.  </p>  </div>
+  </main>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+    // elements
+var $page = $('.page');
+
+$('.menu_toggle').on('click', function(){
+  $page.toggleClass('shazam');
+});
+$('.content').on('click', function(){
+  $page.removeClass('shazam');
+});
+    
+</script>
+</body>
+</html>
